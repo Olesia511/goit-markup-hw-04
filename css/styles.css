@@ -468,6 +468,7 @@ img {
 
 .customers-list {
   justify-content: center;
+  align-items: center;
   gap: 24px;
 }
 
@@ -488,6 +489,9 @@ img {
 }
 
 .customers-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   fill: var(--icon-company);
 }
 
